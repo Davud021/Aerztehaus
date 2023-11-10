@@ -1197,7 +1197,7 @@ textarea.form-control {
 	color: #333;
 }
 .chart-title span {
-	color: #009efb;
+	color: rgb(4, 178, 155);
 }
 .card-title > a.btn {
 	color: #fff;
@@ -1207,11 +1207,11 @@ ul.chat-user-total li {
 	color: #999;
 }
 ul.chat-user-total li i.current-users {
-	color: #009efb;
+	color: rgb(4, 178, 155);
 	padding-right: 5px;
 }
 ul.chat-user-total li i.old-users {
-	color: #eaeaea;
+	color: rgba(255, 188, 53, 0.5);
 	padding-right: 5px;
 }
 .new-patient-table {
