@@ -433,15 +433,15 @@ table.table td h2 span {
 }
 .btn-primary {
 	border-color: transparent;
-	background-color: #009efb;
+	background-color: rgb(4, 178, 155);
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.active,
 .btn-primary:active,
 .open > .dropdown-toggle.btn-primary {
-	background-color: #009efb;
-	border: 1px solid #009efb;
+	background-color:  rgb(4, 178, 155);
+	border: 1px solid  rgb(4, 178, 155);
 	color: #fff;
 }
 .btn-primary.active.focus,
@@ -459,17 +459,17 @@ table.table td h2 span {
 .btn-primary.active:not(:disabled):not(.disabled),
 .btn-primary:active:not(:disabled):not(.disabled),
 .show > .btn-primary.dropdown-toggle {
-	background-color: #009efb;
-	border-color: #009efb;
+	background-color:  rgb(4, 178, 155);
+	border-color: rgb(4, 178, 155);
 	color: #fff;
 }
 .btn-outline-primary {
-	border-color: #009efb;
-	color: #009efb;
+	border-color:  rgb(4, 178, 155);
+	color: rgb(4, 178, 155);
 }
 .btn-outline-primary:hover {
-	background-color: #009efb;
-	border-color: #009efb;
+	background-color: rgb(4, 178, 155);
+	border-color:  rgb(4, 178, 155);
 	color: #fff;
 }
 .btn-outline-primary.active:not(:disabled):not(.disabled),
