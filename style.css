@@ -566,17 +566,17 @@ table.table td h2 span {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-	background-color: #009efb;
+	background-color: rgb(4, 178, 155);
 	border-color: #009efb;
 }
 .pagination > li > a,
 .pagination > li > span {
-	color: #009efb;
+	color:  rgb(4, 178, 155);
 	padding: .5rem .75rem !important;
 }
 .page-item.active .page-link {
-	background-color: #009efb;
-	border-color: #009efb;
+	background-color:  rgb(4, 178, 155);
+	border-color:  rgb(4, 178, 155);
 }
 .dropdown-menu {
 	border: 1px solid rgba(0, 0, 0, 0.1);
