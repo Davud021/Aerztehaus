@@ -433,15 +433,15 @@ table.table td h2 span {
 }
 .btn-primary {
 	border-color: transparent;
-	background-color: #009efb;
+	background-color: rgb(4, 178, 155);
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.active,
 .btn-primary:active,
 .open > .dropdown-toggle.btn-primary {
-	background-color: #009efb;
-	border: 1px solid #009efb;
+	background-color:  rgb(4, 178, 155);
+	border: 1px solid  rgb(4, 178, 155);
 	color: #fff;
 }
 .btn-primary.active.focus,
@@ -459,17 +459,17 @@ table.table td h2 span {
 .btn-primary.active:not(:disabled):not(.disabled),
 .btn-primary:active:not(:disabled):not(.disabled),
 .show > .btn-primary.dropdown-toggle {
-	background-color: #009efb;
-	border-color: #009efb;
+	background-color:  rgb(4, 178, 155);
+	border-color: rgb(4, 178, 155);
 	color: #fff;
 }
 .btn-outline-primary {
-	border-color: #009efb;
-	color: #009efb;
+	border-color:  rgb(4, 178, 155);
+	color: rgb(4, 178, 155);
 }
 .btn-outline-primary:hover {
-	background-color: #009efb;
-	border-color: #009efb;
+	background-color: rgb(4, 178, 155);
+	border-color:  rgb(4, 178, 155);
 	color: #fff;
 }
 .btn-outline-primary.active:not(:disabled):not(.disabled),
@@ -566,17 +566,17 @@ table.table td h2 span {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-	background-color: #009efb;
+	background-color: rgb(4, 178, 155);
 	border-color: #009efb;
 }
 .pagination > li > a,
 .pagination > li > span {
-	color: #009efb;
+	color:  rgb(4, 178, 155);
 	padding: .5rem .75rem !important;
 }
 .page-item.active .page-link {
-	background-color: #009efb;
-	border-color: #009efb;
+	background-color:  rgb(4, 178, 155);
+	border-color:  rgb(4, 178, 155);
 }
 .dropdown-menu {
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -702,7 +702,7 @@ textarea.form-control {
 -----------------------*/
 
 .header {
-	background-color: #009efb;
+	background-color: rgb(4, 178, 155);
 	left: 0;
 	position: fixed;
 	right: 0;
@@ -854,10 +854,10 @@ textarea.form-control {
 	padding: 0 20px;
 }
 .sidebar-menu li a:hover {
-	color: #009efb;
+	color: rgb(4, 178, 155);
 }
 .sidebar-menu li.active a {
-	color: #009efb;
+	color:  rgb(4, 178, 155);
 	background-color: #f3f3f3;
 }
 .menu-title {
@@ -1197,7 +1197,7 @@ textarea.form-control {
 	color: #333;
 }
 .chart-title span {
-	color: #009efb;
+	color: rgb(4, 178, 155);
 }
 .card-title > a.btn {
 	color: #fff;
@@ -1207,11 +1207,11 @@ ul.chat-user-total li {
 	color: #999;
 }
 ul.chat-user-total li i.current-users {
-	color: #009efb;
+	color: rgb(4, 178, 155);
 	padding-right: 5px;
 }
 ul.chat-user-total li i.old-users {
-	color: #eaeaea;
+	color: rgba(255, 188, 53, 0.5);
 	padding-right: 5px;
 }
 .new-patient-table {
