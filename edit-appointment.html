@@ -6,6 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <title>Ärztehaus Bodensee</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -21,6 +22,7 @@
 </head>
 
 <body>
+    
     <div class="main-wrapper">
         <div class="header">
 			<div class="header-left">
@@ -249,7 +251,20 @@
                                         <input class="form-control" type="text" value="+12 187921563">
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Arbeitsunfähig</label>
+                                        <input class="form-control" type="text" value="7 Tage">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Verschriebene Medikamente</label>
+                                        <input class="form-control" type="text" value="Paracetamol, Vitamin B12">
+                                    </div>
+                                </div>
                             </div>
+                           
                             <div class="form-group">
                                 <label>Nachricht</label>
                                 <div class="form-control auto-height-textarea" style="height: auto !important; overflow-y: hidden;">
@@ -294,7 +309,6 @@
                                 </div>
                             </div>
                             
-                            
 
                             <div class="form-group">
                                 <label class="display-block">Termin Status</label>
@@ -329,14 +343,16 @@
                                     </label>
                                 </div>
                             </div>
-
-                            <div class="m-t-20 text-center">
-                                <button class="btn btn-primary submit-btn">Sichern</button>
-                            </div>
                         </form>
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn btn-primary submit-btn mb-2" onclick="redirectToPage('attest.html')">Attest drucken</button> 
+                <button class="btn btn-primary submit-btn mb-2" onclick="redirectToPage('rezept.html')">Rezept drucken</button>
+                <button class="btn btn-primary submit-btn mb-2">Sichern</button>
+            </div>
+            
         </div>
     </div>
     <div class="sidebar-overlay" data-reff=""></div>
@@ -355,7 +371,12 @@
 
                 });
             });
-     </script>
+            </script>
+           <script>
+            function redirectToPage(page) {
+                window.location.href = page;
+            }
+        </script>
 </body>
 
 
